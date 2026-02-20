@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Das Developer | Construction Company</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #1e3a5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background: #12263a;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+section {
+    padding: 40px;
+}
+h2 {
+    color: #1e3a5f;
+}
+.service-box {
+    background: #f2f2f2;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #1e3a5f;
+}
+footer {
+    background: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+button {
+    background: #1e3a5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Das Developer</h1>
+<p>Professional Construction & Infrastructure Company</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Execution</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>Company Overview</h2>
+<p>Das Developer is a professional construction company providing residential, commercial and infrastructure solutions with quality, safety and timely delivery.</p>
+
+<h3>Vision</h3>
+<p>To become a trusted and reliable construction company known for quality work and integrity.</p>
+
+<h3>Mission</h3>
+<ul>
+<li>On-time project completion</li>
+<li>High-grade materials</li>
+<li>Strict safety standards</li>
+<li>Complete client satisfaction</li>
+</ul>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="service-box">Residential & Commercial Building Construction</div>
+<div class="service-box">Land Survey & Topographical Survey</div>
+<div class="service-box">Renovation & Remodeling</div>
+<div class="service-box">Interior & Finishing Works</div>
+<div class="service-box">Electrical & Plumbing Works</div>
+<div class="service-box">Fire & Safety Installation</div>
+<div class="service-box">Turnkey Projects (Material + Labour)</div>
+
+</section>
+
+<section id="projects">
+<h2>Project Execution Mode</h2>
+
+<h3>Labour Contract Basis</h3>
+<p>Skilled manpower and technical supervision provided as per requirement.</p>
+
+<h3>Turnkey (Material + Labour)</h3>
+<p>Complete project execution including procurement, supervision and handover.</p>
+
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p><strong>Proprietor:</strong> Jhantu Das</p>
+<p><strong>Phone:</strong> +91 8494868467</p>
+<p><strong>Email:</strong> info.dasdevelopers@gmail.com</p>
+<p><strong>Office:</strong> Ekamalipur, West Medinipur, WB – 721426</p>
+
+<button onclick="window.location.href='tel:+918494868467'">Call Now</button>
+
+</section>
+
+<footer>
+© 2026 Das Developer | All Rights Reserved
+</footer>
+
+</body>
+</html>
